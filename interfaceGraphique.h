@@ -1,0 +1,27 @@
+/*
+ * MODULE : **** GESTION INTERFACE GRAPHIQUE  ****
+ * DÉCLARATION des fonctions qui gèrent l'affichage des menus, damier et bouttons à l'écran en utilisant la bibliothèque MLV et les fonctions qui vont gérer les évènement récuperer au clavier ou souris pour manipuler l'affichage et jouer avec la souris.
+*
+*/
+
+
+/* déclaration de la fonction afficher_configuration qui affiche l'état de la partie en utilisant la bibliothèque MLV */
+void afficher_configuration(configuration config);
+
+
+
+/* déclaration de la fonction pour afficher le menu */
+void afficherMenu();
+
+
+/* déclaration de la fonction pour sélectionner une pièce avec  la souris */
+void selectionClic(selection *select);
+
+
+
+  /* déclaration de la fonction pour deplacer une pièce avec la souris  */
+void deplacerClic(coup* cp);
+
+
+/* déclaration de la fonction pour sélectionner le mode de jeu avec la souris  */
+void choixModeClic(int *mode);
